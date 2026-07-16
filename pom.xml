@@ -25,6 +25,14 @@
 		    <url>http://54.82.92.150:8081/repository/batch17d-repo-release/</url>
 		</repository>
   	</distributionManagement>
+
+	<dependencies>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
+    </dependency>
+   </dependencies>
     
     <build>
         <plugins>
